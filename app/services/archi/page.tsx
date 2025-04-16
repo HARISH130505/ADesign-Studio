@@ -27,11 +27,11 @@ const Page = () => {
   ];
 
   return (
-    <div className="p-4">
+    <div className="p-6">
       <h1 className="text-2xl font-bold mb-4">Projects</h1>
       <div className="grid md:grid-cols-4 sm:grid-cols-2 gap-4">
         {projects.map((pro) => (
-          <Link href={`/archi/${pro.id}`} key={pro.id}>
+          <Link href={`archi/${pro.id}`} key={pro.id}>
           <div className="relative group">
             <Image
               src={pro.image}
