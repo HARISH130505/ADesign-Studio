@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 };
 
 async function DelayedContent({ children }: { children: React.ReactNode }) {
-  await new Promise((resolve) => setTimeout(resolve, 5800));
+  await new Promise((resolve) => setTimeout(resolve, 5500));
   return <>{children}</>;
 }
 

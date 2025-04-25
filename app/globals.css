@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
 @import "tailwindcss";
 
 :root {
@@ -7,7 +7,8 @@
 }
 
 @theme {
-  --font-dancing: "Dancing Script", cursive; 
+  --font-julietta: "Julietta Messie", sans-serif;
+  --font-gowun: "Gowun Dodum", sans-serif;
 }
 
 @theme inline {
@@ -22,6 +23,14 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
+}
+
+@font-face {
+  font-family: 'Julietta Messie';
+  src: url('/fonts/Julietta-Messie.ttf') format('truetype');
+  font-weight: normal; 
+  font-style: normal; 
+  font-display: swap;
 }
 
 body {

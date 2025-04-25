@@ -7,28 +7,28 @@ const Page = () => {
     {
       id: 1,
       title: 'Primary School Boys Toilet - Thanjavur',
-      image: '/a1.jpg',
+      image: '/arch1.jpg',
     },
     {
       id: 2,
-      title: "Ramani's Villa - Dubai",
-      image: '/a2.jpg',
+      title: "Devadiga's Residency - Mangalore",
+      image: '/arch2.jpg',
     },
     {
       id: 3,
       title: "Doctor's Residence - Chennai",
-      image: '/a3.jpg',
+      image: '/arch3.jpg',
     },
     {
       id: 4,
       title: 'Farmhouse - Thanjavur',
-      image: '/a4.jpg',
+      image: '/arch4.jpg',
     },
   ];
 
   return (
     <div className="p-6">
-      <h1 className="text-2xl font-bold mb-4">Projects</h1>
+      <h1 className="text-2xl font-gowun font-bold mb-4">Projects</h1>
       <div className="grid md:grid-cols-4 sm:grid-cols-2 gap-4">
         {projects.map((pro) => (
           <Link href={`archi/${pro.id}`} key={pro.id}>

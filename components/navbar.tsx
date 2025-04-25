@@ -33,11 +33,11 @@ function Navbar() {
       title: "Services",
       href: "/services",
       submenu: [
-        { title: "Architectural Design", href: "/services/archi" },
-        { title: "Planning Applications", href: "/services/planning" },
+        { title: "Architectural Planning", href: "/services/archi" },
         { title: "Interior Design", href: "/services/interior" },
         { title: "Renovation", href: "/services/renovation" },
         { title: "Graphics Design & Arts", href: "/services/graphics" },
+        { title: "Sustainable Practices", href: "/services/sustainable" },
       ],
     },
     {
@@ -53,10 +53,10 @@ function Navbar() {
   ];
 
   return (
-    <div className="sticky top-0 z-10">
+    <div className="z-10 bg-black">
       <nav className="flex justify-between p-6 items-center">
         <Link href="/" onClick={handleLinkClick}>
-          <h1 className="md:text-2xl text-white z-30 relative">ADesign Studio</h1>
+          <h1 className="md:text-3xl text-white font-gowun z-30 relative">ADesign Studio</h1>
         </Link>
         <button
           className="cursor-pointer text-4xl px-2 text-white z-30 relative"

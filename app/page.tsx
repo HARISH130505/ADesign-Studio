@@ -51,8 +51,8 @@ const Page = () => {
       />
       <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50 z-30" />
       <div className="absolute bottom-10 left-5 text-white p-4 z-30">
-        <h1 className="text-4xl font-bold mb-2">Adithya Devi P</h1>
-        <p className="text-2xl">Sustainable Architect</p>
+        <h1 className="text-4xl  mb-2 font-julietta">Adithya Devi P</h1>
+        <p className="text-md font-gowun">SUSTAINABLE ARCHITECT</p>
       </div>
     </div>
   );
